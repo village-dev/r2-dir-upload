@@ -29,7 +29,7 @@ Github action to upload static directory of files to Cloudflare R2
 ## Example usage
 ```yaml
 - name: R2 Directory Upload
-  uses: willfurstenau/r2-dir-upload@main
+  uses: village-dev/r2-dir-upload@main
   with:
     accountid: ${{ secrets.CF_ACCOUNT_ID }}
     accesskeyid: ${{ secrets.CF_ACCESS_KEY }}
